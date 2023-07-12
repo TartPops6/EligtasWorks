@@ -1,7 +1,7 @@
 body {
     --color-primary: #283039;
-    --color-primary-dark: #007f67;
-    --color-secondary: #252c6a;
+    --color-primary-dark: #CF821B;
+    --color-secondary: #CF821B;
     --color-error: #cc3333;
     --color-success: #4bb544;
     --border-radius: 4px;
@@ -15,16 +15,6 @@ body {
     font-size: 18px;
     background: var(--color-primary);
     background-size: cover;
-}
-
-.container {
-    width: 400px;
-    max-width: 400px;
-    margin: 1rem;
-    padding: 2rem;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-    border-radius: var(--border-radius);
-    background: #ffffff;
 }
 
 .container,
@@ -47,8 +37,15 @@ body {
 }
 
 .form__title {
-    margin-bottom: 2rem;
+    color: var(--color-primary-dark);
+   /* margin-bottom: 2rem; */
     text-align: center;
+}
+
+.form__subtext {
+    text-align: center;
+    color:#ffffff;
+    margin-bottom: 2rem;
 }
 
 .form__message {
@@ -117,12 +114,18 @@ body {
     transform: scale(0.98);
 }
 
-.form__text {
+.form__text--signup {
     text-align: center;
     color: var(--color-secondary);
 }
 
+.form__text--forgot{
+    text-align: right;
+    color: var(--color-secondary);
+}
+
 .form__link {
+    text-align: center;
     color: var(--color-secondary);
     text-decoration: none;
     cursor: pointer;
