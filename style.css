@@ -134,3 +134,15 @@ body {
 .form__link:hover {
     text-decoration: underline;
 }
+
+.form__image {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.form__subtitle {
+    text-align: left;
+    color: #ffffff;
+}
